@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看订单信息</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 16px;
+            font-family: "黑体"
+            
+        }
+         .z{
+            height: 1300px;
+            width: 1200px;
+            border: 1px solid #eee;
+            margin: 0 auto;
+         }
+        .over{
+            width: 1000px;
+            height: 1200px;
+           /* background-color: #eee;*/
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        #span{
+            font-size: xx-small;
+            color: red;
+            
+        }
+        .divb{
+            height: 20px;
+            width: 100%;
+            font-size: xx-small;
+             padding-left: 200px;
+            /* border:2px solid gray;*/
+             
+        }
+        li{ 
+            font-size: xx-small;
+            list-style-type: none;
+            float: left;
+            padding-left: 7px;
+
+        }
+        ul{
+             float: right;
+             margin-right: 200px;
+        }
+        hr{
+           opacity: 0.5;
+        }
+        .div1{
+            height: 160px;
+            width: 1000px;
+            /*background-color: red;*/
+           position: relative;
+        }
+        #ing{
+           position: relative;
+           left: 30px;
+           top: 30px;
+        }
+        #img11{
+            position: relative;
+             left: 260px;
+              top: 30px;
+        }
+        #p1{
+            padding-top: 70px;
+            padding-left: 15px;
+        }
+        .div2{
+             height: 140px;
+             width: 1000px;
+             
+             position: relative;
+        }
+        #span1{
+               position: relative;
+               
+               top: 20px;
+        }
+        .ddddd{
+            height: 20px;
+            width: 100px;
+            font-size: xx-small;
+            padding-left: 880px;
+        }
+        #span2{
+            font-size: xx-small;
+            color: blue;
+            height: 20px;
+            position: relative;
+            left: 846px;
+            top: 20px;
+        }
+        #img22{
+            position: relative;
+            left: 0px;
+            top: 30px;
+        }
+        #pp{
+            position: relative;
+        }
+        #span3{
+            position: relative;
+            top: 28px;
+            font-size: xx-small;
+            
+            
+        }
+        #pp2{
+            position: relative;
+            font-size: xx-small;
+            left:20px;
+            top: 40px;
+        }
+        #img33{
+            position: relative;
+            top: 0px;
+        }
+        .div3{
+            height: 100px;
+             width: 1000px;
+            
+             position: relative;
+
+        }
+        #span4{
+            position: relative;
+              
+               top: 20px;
+        }
+        .id1{
+            /*margin-top: 20px;*/
+            height: 40px;
+             width: 1000px;
+            /* border: 1px solid gray;*/
+        }
+        .div4{
+             height: 400px;
+             width: 1000px;
+            border: 1px solid #eee;
+             position: relative;
+        }
+        .class-left{
+             height: 400px;
+             width: 460px;
+             float: left;
+           /* border: 1px solid gray;*/
+             position: relative;
+        }
+        .class-right{
+            height: 400px;
+             width: 530px;
+             float: right;
+            /*border: 1px solid gray;*/
+             position: relative;
+        }
+        #span5{
+            font-size: xx-small;
+            
+           /* height: 20px;*/
+            position: relative;
+            left: 200px;
+            top: 20px;
+        }
+        #img44{
+            position: relative;
+            top: 0px;
+        }
+        #img55{
+            position: relative;
+            top: 40px;
+            left: 5px;
+        }
+        .divv{
+            width: 170px;
+            height: 28px;
+            border: 2px solid gray;
+
+            font-size: x-small;
+             position: relative;
+             float: right;
+             
+            top: 5px;
+            right: 10px;
+           line-height: 28px;
+           text-align: center;
+        }
+        #span6{
+               font-size: xx-small;
+            
+           /* height: 20px;*/
+            position: relative;
+            left: 10px;
+            top: 60px;
+        }
+        #span7{
+            font-size: xx-small;
+            color: blue;
+           /* height: 20px;*/
+            position: relative;
+            left: 100px;
+            top: 60px; 
+        }
+        #h13{
+            position: relative;
+            top: 70px;
+             } 
+        #id2{
+             width: 900px;
+             height: 48px; 
+             border: 1px solid gray;
+             border-bottom: 1px solid gray;
+        }
+        #pp3{
+            position: relative;
+             left: 20px;
+             top:  260px; 
+        }
+        .divrr{
+            width: 520px;
+            height: 200px;
+        }
+        #img66{
+               float: left;
+        }
+     #pp4{
+            height: 40px;
+            width: 1000px;
+        margin-top: 10px;
+        line-height: 40px;
+        background-color: #eee;
+     }
+     .pp5{
+         height: 20px;
+         width: 1000px;
+         font-size: x-small;
+         text-align: right;
+         line-height: 20px;
+     }
+     #img88{
+          position: relative;
+          top: 0px;
+     }
+     .pp6{
+          height: 50px;
+         width: 1000px;
+         /*font-size: x-small;*/
+         text-align: right;
+         line-height: 30px;
+         background-color: #eee;
+     }
+     .pp7{
+         height: 20px;
+         width: 1000px;
+         
+         line-height: 10px;
+         text-align: right;
+     }
+     .div6 {
+            width: 1200px;
+            height: 120px;
+            border-bottom: solid 1px red;
+            background-color: #eeeeee;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-top: 200px;
+        }
+
+        #ul1 {
+            list-style-type: none;
+            font-size: 18px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-left: 150px
+        }
+
+        #ul1 > li {
+            float: left;
+            width: 200px;
+            height: 120px;
+            line-height: 120px;
+            text-align: center;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .div7 {
+            width: 1200px;
+            height: 300px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+        }
+
+        .div7 ul {
+            float: left;
+            margin-left: auto;
+            margin-right: auto;
+            width: 120px;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .div7 ul li {
+            margin-left: 40px;
+        }
+
+        .ulll {
+            padding-left: 50px;
+        }
+
+        .ull {
+            padding-left: 160px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: gray;
+        }
+
+        a:visited {
+            color: gray;
+        }
+
+        a:active {
+            color: gray;
+        }
+
+        #li5, #li6, #li7, #li8, #li9 {
+            font-weight: bold;
+            color: gray;
+            font-size: 14px;
+        }
+
+        #li10 {
+            font-weight: bold;
+            color: gray;
+            font-size: 14px;
+            margin-left: 40px;
+        }
+
+        #li11 {
+            color: gray;
+            text-align: left;
+            width: 80px;
+            margin-left: 40px;
+        }
+
+        #li12 {
+            margin-left: 40px;
+        }
+        .class-float{
+            margin-top:-200px;
+        }
+        .div8{
+            height: 50px;
+            width: 1200px;
+            margin: 0 auto;
+            /*margin-left: 250px;*/
+            background-color: #eee;
+            text-align: center;
+            line-height: 50px;
+     }
+     .li0{
+        margin-right: 350px;
+     }
+      .divvv{
+        height: 50px;
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #eee;
+      }
+       #sd{
+           margin-top: 20px;
+       }
+    </style>
+   
+</head>
+<body >
+    <div class="z">
+    <div  class="divb" >
+       送货至<span style="color: red" id="span">浙江</span><img src="images/icons/jt_down.png">
+       <ul>
+           <li><a href="order.html" style="font-size: xx-small;">退出</a>&emsp;|</li>
+           <li>我的订单<img src="images/icons/jt_down.png" class="liimg">&emsp;|</li>
+           <li>特色服务<img src="images/icons/jt_down.png" class="liimg">&emsp;|</li>
+           <li>服务中心<img src="images/icons/jt_down.png" class="liimg">&emsp;|</li>
+           <li>手机鱿鱼<img src="images/icons/jt_down.png" class="liimg">&emsp;|</li>
+           <li>关注鱿鱼<img src="images/icons/jt_down.png" class="liimg">&emsp;|</li>
+           <li>网络导航<img src="images/icons/jt_down.png" class="liimg"></li>
+       </ul>
+    </div>
+    <hr>
+    <div class="over">
+    <div class="div1">
+        <img src="images/logo.png" id="ing">
+        <img src="images/10-鱿鱼网-支付_03.png" id="img11">
+        <p id="p1" >填写并核对订单信息</p>
+    </div>
+    <hr>
+    <div class="div2">
+        <span id="span1">收货人信息</span>
+        <a href="addPerson.html" style="font-size: xx-small;color: blue; padding-left:830px;
+        " id="sd">
+                新增收货地址
+        </a>
+       
+        <p id="pp"><img src="images/sureLogo_03.png" id="img22">&emsp;<span id="span3">李春雨&ensp;江苏省苏州市昆山市巴城镇学院路828号&ensp;18662163367</span></p>
+        <p id="pp2">更多地址<img src="images/33_03.png" alt="找不到" id="img33"></p>
+    </div>
+    <hr>
+    <div class="div3">
+        <span id="span4">支付方式</span>
+        <p id="pp"><img src="images/sureLogo_06.png" id="img22">
+    </div>
+    <hr>
+     <div class="id1"><span id="span1">送货清单</span><a href="fullCar.html"><span id="span2">返回修改购物车</span></a></div>
+     
+   <div class="div4">
+        <div class="class-left">
+            <span id="span1">送货清单</span><span id="span5"><img src="images/8-鱿鱼网-订单确认_03.png" id="img44">对应商品</span>
+            <p><img src="images/sureLogo_10.png" id="img55"> <div class="divv">上门自取</div></p>
+             <div class="id2"><span id="span6">配送时间&ensp;预计7月30日(周五)&ensp;09:00-15:00&ensp;送达</span><span id="span7">选择</span><hr id="h13"></div>
+            <p id="pp3">运费<span style="color: red">￥&emsp;0.00</span></p>
+        </div>
+        <div class="class-right">
+            <div class="divrr">
+                <p>商家：鱿鱼自营</p><img src="images/pic333_03.png" id="img66">
+                <p>Apple&ensp;MacBook&ensp;12英寸笔记本电脑&ensp;金色&ensp;512GB闪存&ensp;MLHF2CL/A</p>
+                <P><span style="color: red">￥10069.00</span>&emsp;x1&emsp;&emsp;有货</P>
+                <p><img src="images/sureLogo_14.png" id="img77"><span style="color: orange">七天无理由退款</span></p><br>
+
+                <p>【赠品】 乐迈R95单声道&ensp;蓝牙耳机&ensp;黑色&ensp;x1</p>
+            </div>
+            <div class="divrr">
+                <p>商家：鱿鱼自营</p><img src="images/pic333_03.png" id="img66">
+                <p>Apple&ensp;MacBook&ensp;12英寸笔记本电脑&ensp;金色&ensp;512GB闪存&ensp;MLHF2CL/A</p>
+                <P><span style="color: red">￥10169.00</span>&emsp;x1&emsp;&emsp;有货</P>
+                <p><img src="images/sureLogo_14.png" id="img77"><span style="color: orange">七天无理由退款</span></p><br>
+
+                <p>【赠品】 乐迈R95单声道&ensp;蓝牙耳机&ensp;黑色&ensp;x1</p>
+            </div>
+        </div>
+    </div>
+    <div class="div5">
+        <div class="id1"><span id="span1" >发票信息</span></div>
+        <p id="pp4">普通发票&emsp;&emsp;个人&emsp;&emsp;明细&emsp;&emsp;<span style="color: blue;">修改</span></p>
+        <div>
+        <p class="pp5"><span style="color: red;">2</span>件商品,&emsp;总商品金额：&emsp;&emsp;&emsp;&emsp;￥14699.00</p>
+        <br>
+        <p class="pp5"><span style="padding-right: 15px; font-size: xx-small">返现：</span>&emsp;&emsp;&emsp;&emsp;&emsp;￥0.00</p>
+        <br>
+        <p class="pp5"><img src="images/sureLogo_18.png" id="img88"><span style="padding-right: 30px; font-size: xx-small">运费：</span>&emsp;&emsp;&emsp;&emsp;￥0.00</p>
+        <br>
+        <p class="pp5"><span style="padding-right: 5px; font-size: xx-small">应付金额：</span>&emsp;&emsp;&emsp;&emsp;￥1440.00</p>
+        <br>
+        <br>
+        <br>
+        <p class="pp6"><span style="padding-right: 15px; ">应付金额：<span style="color: red">￥14699.00</span></span>&emsp;&emsp;<a href="apply.html"><img src="images/21_03.png" style="margin-top: 10px;" ></a></p>
+        </div>
+    </div>
+    <br>
+         <p class="pp7"><span >寄送至：江苏省苏州市昆山市巴城镇学院路828号</span></p>
+         <p class="pp7"><span >收件人：李春雨收</span></p>
+   
+    </div>
+    </div>
+    <div class="class-float">
+    <div class="div6">
+    <ul id="ul1">
+        <li id="li1"><img src="images/icons/icon_1_17.png"> 品目繁多&emsp;愉悦购物</li>
+
+        <li id="li2"><img src="images/icons/icon_1_20.png"> 正品保障&emsp;天天低价</li>
+        <li id="li3"><img src="images/icons/icon_1_23.png"> 极速物流&emsp;特色定制</li>
+        <li id="li4"><img src="images/icons/icon_1_25.png"> 优质服务&emsp;以客为尊</li>
+    </ul>
+</div>
+<div class="div7">
+    <ul class="ull"><h1 id="li5"><img src="images/icons/icon_1_32.png">购物指南</h1>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">找回密码</a></li>
+        <li><a href="#">会员介绍</a></li>
+        <li><a href="#">购物演示</a></li>
+    </ul>
+    <ul class="ulll"><h1 id="li6"><img src="images/icons/icon_1_32.png">配送方式</h1>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">找回密码</a></li>
+        <li><a href="#">会员介绍</a></li>
+        <li><a href="#">购物演示</a></li>
+    </ul>
+    <ul class="ulll"><h1 id="li7"><img src="images/icons/icon_1_32.png">支付方式</h1>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">找回密码</a></li>
+        <li><a href="#">会员介绍</a></li>
+        <li><a href="#">购物演示</a></li>
+    </ul>
+    <ul class="ulll"><h1 id="li8"><img src="images/icons/icon_1_32.png">售后服务</h1>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">找回密码</a></li>
+        <li><a href="#">会员介绍</a></li>
+        <li><a href="#">购物演示</a></li>
+    </ul>
+    <ul class="ulll"><h1 id="li9"><img src="images/icons/icon_1_32.png">服务保障</h1>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">找回密码</a></li>
+        <li><a href="#">会员介绍</a></li>
+        <li><a href="#">购物演示</a></li>
+    </ul>
+    <br>
+    <ul class="ulll"><h1 id="li10">客服中心</h1>
+        <li id=li12><img src="images/QRCodes.png"></li>
+        <li id="li11">抢红包、疑问咨询、优惠活动</li>
+    </ul>
+</div>
+</div>
+ <div class="div8">
+        <ul class="li0">
+            <li >&emsp;关于我们&emsp;|</li>
+            <li >&emsp;友情链接&emsp;|</li>
+            <li >&emsp;联系我们&emsp;|</li>
+            <li >&emsp;关于我们&emsp;|</li>
+            <li >&emsp;友情链接&emsp;|</li>
+            <li >&emsp;联系我们&emsp;|</li>
+           
+        </ul>
+    </div>
+    <div class="divvv">
+    <p align="center" style="margin-top: 1px; font-size: x-small;" >沪ICP备198832&ensp;鱿鱼网ypuyu.com版权所有</p>
+    <img src="images/police.png">
+    </div>
+  
+    
+    </div>
+  </div>
+</div>  
+
+
+
+
+</body>
+    
+
+
+</html>

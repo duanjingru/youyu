@@ -1,0 +1,367 @@
+
+        .a0{
+            border-top: 2px solid red;
+            margin-top: 0px;
+
+        }
+        .a1{
+            border: 2px solid red;
+            height:550px;
+            width: 220px;
+            margin-top: 0px;
+            margin-left: 100px;
+
+        }
+        .a3{ 
+            border: 1px solid #d9d7d7;
+            height: 565px;
+            width: 300px;
+            margin-left: 1030px;
+            margin-top: -550px;
+        }
+        .a4{
+            margin-top:-270px;
+            margin-left:330px;
+
+        }
+        .a5{
+            border:1px solid white;
+            width: 1230px;
+            height: 220px;
+            margin-left: 104px;
+            margin-top:20px;
+        }
+        .a6{
+            border:0px solid white;
+            width: 1230px;
+            height: 220px;
+            margin-left: 104px;
+            margin-top:-14px;
+        }
+        .table1{
+            height:550px;
+            width: 220px;
+            background-color: #f2dfeff5;
+        }
+        .table2{
+            height: 545px;
+            width: 300px;
+            font-size: 13px;
+
+        }
+        .table3{
+            height: 250px;
+            width: 610px;
+            border: solid 1px #d9d7d7;
+
+        }
+        .table4{
+            border: 1px;
+            width: 1230px;
+            height: 220px;
+            font-size: 14px;
+            margin-top:20px;
+
+        }
+        .table5{
+            width: 1230px;
+            height: 200px;
+            font-size: 14px;
+            margin-top: 0px;
+
+        }
+        .table6{
+            border: 0px solid gray;
+            width: 1230px;
+            height: 320px;
+            font-size: 13px;
+            border-top-width: 3px;
+        }
+        .table7{
+            border-top-width: 3px;
+            background-color: #d9d7d7
+        }
+        .c3_b1_center{
+           /* border: 1px solid white;*/
+           /* height: 400px;*/
+            margin-left: 330px;
+            margin-top: -552px;
+            float: left;
+            position: relative;
+        }
+        .c3_b1_c_bottom{
+            position: absolute;
+            top: 350px;
+        }
+        .c3_b1_c_bottom li{
+            float: left;
+        }
+        /*图片轮播样式*/
+        .c3_b1_c_top{
+            position: relative;
+            width:696px;
+            height: 320px;
+        }
+        .c3_b1_img div img{
+            position: absolute;
+            top:0px;
+            width:696px;
+            height: 320px;
+        }
+        .c3_b1_c_top{
+            position: relative;
+        }
+
+        /*箭头*/
+        .arrow div{
+            position: absolute;
+            top:120px;
+            padding: 10px 2px;
+            width: 25px;
+            height: 30px;
+        }
+        .arrow div:hover{
+            background-color: rgb(0,0,0,20%)
+        }
+        .right_arrow{
+            right: 0px;
+            background: url(../images/right_arrow.png) rgb(0,0,0,10%) no-repeat center;
+        }
+        .left_arrow{
+            background: url(../images/left_arrow.png) rgb(0,0,0,10%) no-repeat center;
+        }
+
+
+        /*小球*/
+        .circle_btns{
+            position: absolute;
+            bottom: 10px;
+            margin-left: 285px;
+        }
+        /*未切换到时*/
+        .circle_btn{
+            position: relative;
+            /*background:red;*/
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            margin-right: 10px;
+            border-radius:50%;
+        }
+        .circle_btn::after{
+            content: "";
+            position: absolute;
+            /*background:white;*/
+            top:4px;
+            left: 4px;
+            width: 6px;
+            height: 6px;
+            display: block;
+            border-radius:50%;
+            border: 2px solid hsla(0,0%,100%,.4) ;
+        }
+
+        /*切换到时*/
+        .circle_btns .current{
+            background-color:hsla(0,0%,100%,.2); 
+        }
+        .circle_btns .current::after{
+            border: 2px solid white;
+            background-color:white; 
+        }
+     
+        .a7{
+            border: 0px solid gray;
+            width: 1214px;
+            margin-top: 0px;
+            margin-left: 104px;
+        }
+        .q1{
+            border-color: #e8e7e7;
+        }
+        .a8{
+            border-left: 1px solid gray;
+            height: 128px;
+            width: 125px;
+        }
+        .a9{
+            width: 314px;
+            height: 60px;
+            margin-left: 130px;
+            margin-top: -132px;
+
+        }
+        .a10{
+            height: 58px;
+            width: 300px;
+            background-color: #e8e7e7;
+            margin-top: 0px;
+            margin-left: 130px;
+            border-radius: 20px;
+        }
+        .a11{
+            border-left: 1px solid gray;
+            height: 122px;
+            width: 125px;
+            margin-top: 10px;
+
+        }
+        .a12{
+            width: 314px;
+            height: 60px;
+            margin-left: 130px;
+            margin-top: -132px;
+
+
+        }
+        .a13{
+            height: 58px;
+            width: 300px;
+            background-color: #e8e7e7;
+            margin-top: 0px;
+            margin-left: 130px;
+            border-radius: 20px;
+
+        }
+        .a14{
+            border-left: 1px solid gray;
+            height: 82px;
+            width: 83px;
+            margin-left: 443px;
+            margin-top: -231px;
+
+        }
+        .a15{
+            border-left: 1px solid gray;
+            height: 82px;
+            width: 83px;
+            margin-left: 443px;
+            margin-top: 0px;
+        }
+        .a16{
+            border-left:1px solid gray;
+            height: 81px;
+            width: 83px;
+            margin-left: 443px;
+            margin-top: px;
+        }
+        .a17{
+            height: 38px;
+            width: 300px;
+            margin-left: 532px;
+            margin-top: -253px;
+
+
+        }
+        .a18{
+            height: 39px;
+            width: 300px;
+            margin-left: 532px;
+            margin-top: px;
+
+        }
+        .a19{
+            height: 38px;
+            width: 300px;
+            margin-left: 532px;
+            margin-top: 4px;
+
+        }
+        .a20{
+            height: 38px;
+            width: 300px;
+            margin-left: 532px;
+
+        }
+        .a21{
+            height: 38px;
+            width: 300px;
+            margin-left: 532px;
+            margin-top: 4px;
+
+        }
+        .a22{
+            height: 38px;
+            width: 300px;
+            margin-left: 532px;
+
+
+        }
+        .a23{
+            border-left: 1px solid gray;
+            height: 82px;
+            width: 83px;
+            margin-left: 845px;
+            margin-top: -230px;
+
+
+        }
+        .a24{
+            border-left: 1px solid gray;
+            height: 82px;
+            width: 83px;
+            margin-left: 845px;
+            margin-top: 0px;
+        }
+        .a25{
+            border-left: 1px solid gray;
+            height: 82px;
+            width: 83px;
+            margin-left: 845px;
+            margin-top: 0px;
+        }
+        .a26{
+            height: 38px;
+            width: 293px;
+            margin-left: 934px;
+            margin-top: -247px;
+
+
+        }
+        .a27{
+            height: 39px;
+            width: 293px;
+            margin-left: 934px;
+            margin-top: px;
+
+        }
+        .a28{
+            height: 38px;
+            width: 293px;
+            margin-left: 934px;
+            margin-top: 4px;
+
+        }
+        .a29{
+            height: 38px;
+            width: 293px;
+            margin-left: 934px;
+
+        }
+        .a30{
+            height: 38px;
+            width: 293px;
+            margin-left: 934px;
+            margin-top: 4px;
+
+        }
+        .a31{
+            height: 38px;
+            width: 293px;
+            margin-left: 934px;
+        }
+        .a32{
+            border: 1px solid gray;
+            margin-top: 9px;
+        }
+        .p1{
+            height: 120px;
+            width: 120px;
+        }
+        .p2{
+            height: 80px;
+            width:80px;
+        }
+        .p3{
+
+        }

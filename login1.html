@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;font-size: 12px;font-family: "微软雅黑","宋体";color: #666}
+        img{border:none;display: block;}
+        h1,h2,h3{font-weight:normal;}
+        a{ text-decoration:none;}
+        li{ list-style:none;}
+        b{ font-weight:normal}
+        .header1
+        {
+            width:1020;
+            margin:0 auto;
+        }
+        .header1 img{
+            margin:12px 0;  
+        }
+        .content1{
+            background-color:#63be8f;   
+        }
+        .content1 .c1_box1{
+            width:1020px;
+            height:602px;
+            margin:0 auto;
+            background:url(images/bg_login.png) no-repeat center;
+            position:relative;/*相对定位*/
+        }
+         .content1 .login_box{
+            width:385px;
+            background-color:#FFF;
+            position:absolute;/*绝对定位*/
+            top:110px;
+            right:0px;
+        }
+        .login_box .center1{
+            width:345px;
+            margin:20px 20px;   
+        }
+        .login_box h1{
+            font-size:18px;
+            margin-bottom:10px; 
+        }
+        .login_box h2{
+            height:24px;
+            line-height:24px;
+            border:1px solid #ffe57d;
+            background:#fff6d2 url(images/icons/icon_light_03.png) no-repeat left;
+            padding-left:40px;
+        }
+
+        .login_box .si_box{
+            border:1px solid #bdbdbd;
+            overflow:hidden;
+            margin:10px 0;
+        }
+        .login_box .si_box span{
+            width:38px;
+            height:38px;
+            float:left;
+            border-right:1px solid #bdbdbd;
+        }
+        .login_box .si_box input{
+            border:none;
+            height:38px;
+            width:260px;
+            padding-left:10px;
+        }
+        span.usr_icon{
+            background:#f3f3f3 url(images/icons/icon_04.jpg) no-repeat center;   
+        }
+        span.pwd_icon{
+            background:#f3f3f3 url(images/icons/icon_05.jpg) no-repeat center;   
+        }
+
+        .login_box .fg_box{
+            overflow:hidden;
+        }
+
+        .login_box .fg_box a{
+            height:20px;
+            line-height:20px;   
+        }
+        .login_box .fg_box .fg{
+            float:left;
+        }
+        .login_box .fg_box .treg{
+            float:right;
+            background:url(images/icons/icon_06.png) no-repeat left;
+            padding-left:24px;
+        }
+        .login_box .sub_box{
+            border:1px solid #cb2a2d;
+            margin:24px 0;
+        }
+        .login_box .sub_box input{
+            border:1px solid #e85356;
+            width:100%;
+            background-color:#e4393c;
+            color:#FFF;
+            font-size:20px;
+            cursor:pointer;
+        }
+        .login_box .com_box{
+            overflow:hidden;
+        }
+        .login_box .com_box span{
+            float:left;
+            width:34px;
+            height:34px;
+            margin:10px;
+            cursor:pointer;
+        }
+        .com_box span.tencent{
+            background:url(images/icons/icon_03.png) no-repeat center;
+        }
+
+        .footer1{
+            width:1020px;
+            margin:0 auto;
+            text-align:center;
+        }
+        .footer1 .links{
+            margin:18px 0;  
+        }
+        .footer1 .links a{
+            padding:0 12px;/*?*/
+        }
+        .footer1 img{
+            margin:10px auto 70px auto; 
+        }
+    </style>
+    <script type="text/javascript">
+
+        function jiance(){
+            var name = document.getElementById("name").value;
+            var pass = document.getElementById("password").value;
+            var name1 = /([A-Za-z0-9_]{6,})/ig;
+            var pass1 = /(.{6,})/ig;
+            var n = name1.test(name);
+            var p = pass1.test(pass);
+            var tishi = document.getElementById("tishi");
+
+            if (n!==true){
+                alert("用户名输入格式不正确");
+                tishi.style.color="red"}
+            if (p!==true){
+                alert("密码输入格式不正确");
+                tishi.style.color = "red"
+            }
+            }
+        
+        
+
+    </script>
+</head>
+<body>
+    <div class="header1">
+        <a href="index1.html">
+            <img src="images/logo.png">
+        </a>
+    </div>
+    <div class="content1">
+        <div class="c1_box1">
+            <div class="login_box">
+                <div class="center1">
+                <form action="index1.html" method="post">
+                    <h1>账号登录</h1>
+                    <h2 id="tishi">公共场所请不要泄露您的密码，以防账号丢失</h2>
+                    <div class="si_box">
+                        <span class="usr_icon"></span>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <!--分割条-->
+                    <div class="c10"></div>
+                    <div class="si_box">
+                        <span class="pwd_icon"></span>
+                        <input type="password" name="password" id="password" />
+                    </div>
+                    <div class="fg_box">
+                        <a class="fg" href="forgetPassword.html">忘记登陆密码？</a>
+                        <a class="treg" href="register1.html">立即注册</a>
+                    </div>
+                    <div class="sub_box">
+                        <input type="submit" value="登陆" onclick="jiance()" />
+                    </div>
+                 </form>
+                    <div>
+                        请使用合作网站账号登陆鱿鱼网：
+                    </div>
+                    <div class="com_box">
+                        <span class="tencent"></span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer1">
+        <div class="links">
+            <a href="#">关于我们</a>|
+            <a href="#">联系我们</a>|
+            <a href="#">友情链接</a>|
+            <a href="#">关于我们</a>|
+            <a href="#">联系我们</a>|
+            <a href="#">友情链接</a>
+        </div>
+        <div>
+            沪ICP备1928832 鱿鱼网youyu.com版权所有。
+        </div>
+        
+        <img src="images/police.png">
+        
+    </div>
+</body>
+</html>
